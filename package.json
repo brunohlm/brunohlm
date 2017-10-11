@@ -1,24 +1,24 @@
 {
-    "name": "brunohlm",
-    "version": "0.0.1",
-    "description": "My contact info.",
-    "main": "./info.json",
-    "scripts": {
-      "postinstall": "cat info.json",
-      "postversion": "npm publish"
-    },
-    "keywords": [
-      "person",
-      "contact"
-    ],
-    "author": "Bruno Melo",
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/brunohlm/brunohlm.git"
-    },
-    "bugs": {
-      "url": "https://github.com/brunohlm/brunohlm/issues"
-    },
-    "homepage": "https://github.com/brunohlm/brunohlm#readme"
-  }
+  "name": "brunohlm",
+  "version": "0.0.1",
+  "description": "My contact info.",
+  "main": "./info.json",
+  "scripts": {
+    "postinstall": "cat info.json && echo '\n'",
+    "postversion": "npm publish"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Bruno Melo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunohlm/brunohlm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunohlm/brunohlm/issues"
+  },
+  "homepage": "https://github.com/brunohlm/brunohlm#readme"
+}
